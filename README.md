@@ -184,6 +184,7 @@ WantedBy=multi-user.target
 
 Enable and start the service:
 ```bash
+sudo systemctl daemon-reload
 sudo systemctl enable rtsp-server.service
 sudo systemctl start rtsp-server.service
 sudo systemctl status rtsp-server.service
